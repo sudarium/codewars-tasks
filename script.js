@@ -9,3 +9,9 @@ function getCount(str) {
     }
     return vowelsCount;
 }
+
+// 2 вариант(очень круто - жаль не мой)
+
+// function getCount(str) {
+//     return (str.match(/[aeiou]/ig)||[]).length;
+//   }
